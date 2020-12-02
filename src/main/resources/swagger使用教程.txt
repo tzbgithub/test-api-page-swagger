@@ -7,4 +7,4 @@
 4 运行Generator，重生成model文件，model文件带有注解 @ApiModelProperty(value = "xxx")
 5 给需要测试的controller类添加 @Api(tags = "TestxxxController", description = "xxxx")
 6 给需要测试的接口方法添加 @ApiOperation("xxxx")
-7 启动Spring，登录https://localhost:8080/
+7 启动Spring，登录http://localhost:8080/swagger-ui.html
