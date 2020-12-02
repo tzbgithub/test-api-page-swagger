@@ -1,0 +1,10 @@
+1 数据库创建（使用创建数据表的sql.txt）(如果已经有数据表，请忽略)
+2 修改数据源：generator.properties
+	将数据库的密码修改
+3 修改生成的配置：generator.xml（标记配置一和配置二）
+    配置一：配置生成包的位置
+    配置二：配置我们要映射的数据表数据表
+4 运行Generator，重生成model文件，model文件带有注解 @ApiModelProperty(value = "xxx")
+5 给需要测试的controller类添加 @Api(tags = "TestxxxController", description = "xxxx")
+6 给需要测试的接口方法添加 @ApiOperation("xxxx")
+7 启动Spring，登录https://localhost:8080/
